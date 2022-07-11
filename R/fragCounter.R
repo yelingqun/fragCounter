@@ -631,6 +631,7 @@ correctcov_stub = function(cov.wig, mappability = 0.9, samplesize = 5e4, verbose
   }
   map = gr.sub(map)
   gc = gr.sub(gc)
+  cov = gr.sub(cov) #lingqun
   gc.str = gr.string(gc)
   map.str = gr.string(map)
   cov.str = gr.string(cov)
